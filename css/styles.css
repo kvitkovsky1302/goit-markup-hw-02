@@ -58,7 +58,8 @@ font-family: 'Roboto', sans-serif; */
   color: var(--primery-text-color);
 }
 
-.studio-color {
+.studio-color,
+.portfolio-color {
   color: var(--secondary-color);
 }
 /* ============= end header =============*/
@@ -183,25 +184,56 @@ font-family: 'Roboto', sans-serif; */
   color: var(--secondary-color);
 }
 
-.address-mail,
-.address-tel {
+.footer-contacts {
   font-weight: 400;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 
-.address-mail:hover,
-.address-mail:focus,
-.address-tel:hover,
-.address-tel:focus {
+.footer-contacts:hover,
+.footer-contacts:focus {
   color: var(--secondary-color);
 }
 
 /* ============= end contacts info =============*/
+
 /* ============= filter list =============*/
+
+.modal-btn {
+  background: #f5f4fa;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-color);
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+  color: #ffffff;
+  background-color: var(--secondary-color);
+}
 /* ============= end filter list =============*/
+
 /* ============= portfolio list =============*/
+.portfolio-list-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-color);
+}
+
+.portfolio-list-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--primery-text-color);
+}
 /* ============= end portfolio list =============*/
 /* ============= =============*/
 /* ============= =============*/
